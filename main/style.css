@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/hanumaJi.webp");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.text-bar {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  background: #2d2f2e;
+ 
+ 
+}
+
+.text-bar img {
+  height: 46px;
+  margin-left: 230px;
+  
+}
+
+.corner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.search input {
+  position: absolute;
+  bottom: 0;
+  margin-left: 430px;
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  padding-left: 10px;
+  background-color: #4d5351;
+  border: 1px solid #665f5f;
+}
+
+
+
+
+.menu {
+  position: absolute;
+  bottom: 0;
+  margin-left: 150px;
+}
+
+.menu img {
+  margin-left: 235px;
+  height: 37px;
+}
+
+.menu-item {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  /* bottom: 50px; */
+  bottom: -580px;
+  transition: all 0.3s ease-in;
+}
+
+.menu-item img {
+  height: 90vh;
+  border-radius: 6px;
+}
+
+.icons1{
+  color: aliceblue;
+  display: block;
+width: 10px;
+margin: 10px;
+}
+
+.icons2{
+  color: aliceblue;
+margin: 10px;
+}
+
+
+
